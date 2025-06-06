@@ -1,5 +1,7 @@
 # Term Deposit Subscription Predictor
 
+🎯 **Live App**: [Click here to try it out](https://term-deposit-predictor.streamlit.app/)
+
 This project uses a machine learning model to predict whether a client will subscribe to a term deposit, based on data from a bank's direct marketing campaign. The solution includes a trained model and a Streamlit web application for real-time predictions.
 
 ## 🔍 Project Structure
@@ -19,7 +21,22 @@ This project uses a machine learning model to predict whether a client will subs
 - **Evaluation**: Accuracy, ROC AUC, Classification Report
 - **Class Balance Handling**: SMOTE (Synthetic Minority Oversampling Technique)
 
-## 🚀 Running the Streamlit App (Cloud Deployment)
+## 🧪 Using the App
+
+- Input client attributes using the form
+- Click "Predict"
+- The app will show the prediction and the probability of subscription
+
+### 🔍 App Screenshot
+
+<img width="816" alt="6e3ae259-16b2-413f-855b-c434941dd2df" src="https://github.com/user-attachments/assets/55f94b3c-3ba4-4f8f-8d8f-d16b6d70d5f3" />
+
+## 📄 Dataset Source
+
+- `bank-additional-full.csv`
+- The dataset contains 41,188 records and 20 features related to marketing interactions
+
+## 🚀 🛠️ For Developers : Running the Streamlit App
 
 ### 1. Clone the repository
 
@@ -81,20 +98,6 @@ http://localhost:8501
 - Press `Ctrl + C` in the terminal to stop the app
 - Ensure your environment has all dependencies from `requirements.txt`
 
-## 🧪 Using the App
-
-- Input client attributes using the form
-- Click "Predict"
-- The app will show the prediction and the probability of subscription
-
-### 🔍 App Screenshot
-
-<img width="816" alt="6e3ae259-16b2-413f-855b-c434941dd2df" src="https://github.com/user-attachments/assets/55f94b3c-3ba4-4f8f-8d8f-d16b6d70d5f3" />
-
-## 📄 Dataset Source
-
-- `bank-additional-full.csv`
-- The dataset contains 41,188 records and 20 features related to marketing interactions
 
 ## 📬 Contact
 
