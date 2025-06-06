@@ -4,7 +4,7 @@ This project uses a machine learning model to predict whether a client will subs
 
 ## 🔍 Project Structure
 
-- `term_deposit_modeling_updated.ipynb`: Jupyter notebook with full analysis, EDA, modeling, and export.
+- `term_deposit_modeling.ipynb`: Jupyter notebook with full analysis, EDA, modeling, and export.
 - `streamlit_app.py`: Streamlit app to collect input and display predictions.
 - `term_deposit_model.pkl`: Trained Random Forest model saved with joblib.
 - `Term_Deposit_Report.docx`: Project report with findings and approach.
@@ -58,4 +58,4 @@ This will open the app in your default web browser at `http://localhost:8501`.
 
 ## 📬 Contact
 
-For questions or collaborations, feel free to reach out at your-email@example.com
+For questions or collaborations, feel free to reach out at hajjsudais143.com
