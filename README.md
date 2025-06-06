@@ -8,6 +8,9 @@ This project uses a machine learning model to predict whether a client will subs
 - `streamlit_app.py`: Streamlit app to collect input and display predictions.
 - `term_deposit_model.pkl`: Trained Random Forest model saved with joblib.
 - `Term_Deposit_Report.docx`: Project report with findings and approach.
+- `requirements.txt` – Dependencies list for setup
+- `bank-additional-full.csv` – Dataset used for training and evaluation
+- `screenshot.png` – Visual preview of the deployed Streamlit app
 - `README.md`: This setup and usage guide.
 
 ## 🧠 Model Details
@@ -95,4 +98,4 @@ http://localhost:8501
 
 ## 📬 Contact
 
-For questions or collaborations, feel free to reach out at hajjsudais143@gmail.com.com
+For questions or collaborations, feel free to reach out at hajjsudais143@gmail.com
